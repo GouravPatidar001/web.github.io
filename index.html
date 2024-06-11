@@ -1,0 +1,196 @@
+<DOCTYPE html>
+    <html>
+        <head>
+            <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Mysterious Worlds Website</title>
+            <link rel="stylesheet" href="style.css">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"rel="stylesheet">
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        </head>
+    <body>
+        <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">BLOGS</a></li>
+                <li><a href="">COMMENTS</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars"onclick="showMenu()"></i>
+        </nav>
+            <div. class="text-box">
+                <h1>Good</h1>
+            <p>Good is a website here you get all intresting facts and horror stories<br>also you get paranormal things.</p>
+                <a href="" class="hero-btn">Visit Us To Know More</a>
+                
+            </div.>
+        
+        </section>
+        
+   <!----Course---->     
+        
+       <section class="Stories">
+        <h1>Stories Of Our Website</h1>
+        <p>Welcome Here You Get All Intresting And Facts Blogs And Also Get Some Horror Stories.</p>
+           
+         <div class="row">
+           <div class="stories-col">
+        <h3>Horror Story</h3>
+        <p>here you get all horror Stories of real life experiense and ancient ghost stories.</p>
+           </div>
+              <div class="stories-col">
+        <h3>Facts</h3>
+        <p>here you get all facts about animals,humans and about our Univercity.</p>
+           </div>
+              <div class="stories-col">
+        <h3>Paranormal Things </h3>
+        <p>here you get all horror Stories and paranormals things.</p>
+           </div>
+             
+           </div>    
+            
+        </section> 
+        
+      <!-------Campus----->
+        
+        <section class="Photos">
+        <h1>Our Website Photos</h1>
+            <p>New Photos To Our Website</p>
+            
+            <div class="row">
+            <div class="photos-col">
+                <img src="images/london.png">
+                <div class="layer">
+                <h3>Horror Love Story</h3>
+                </div>
+                </div>
+                            <div class="photos-col">
+                <img src="images/newyork.png">
+                <div class="layer">
+                <h3>Facts</h3>
+                </div>
+                </div>
+                            <div class="photos-col">
+                <img src="images/washington.png">
+                <div class="layer">
+                <h3>Paranormal Things</h3>
+                </div>
+                </div>
+            </div>
+        
+            
+        </section>
+        
+        <!----- Facilities ----->
+        
+        <section class="Facilities">
+        <h1>Our New Blogs </h1>
+            <p>New Blogs Which Is Recently Uploaded.</p>
+            
+            <div class="row">
+            <div class="facilities-col">
+                <img src="images/liabrary.png">
+                <h3>Worlds Best Blogs</h3>
+                <p>Worlds Best Blogs On Our Website.</p>
+                </div>
+                 <div class="facilities-col">
+                <img src="images/basketball.png">
+                <h3>Small Blogs</h3>
+                <p>Worlds Best Blogs On Our Website.</p>
+                </div>
+                 <div class="facilities-col">
+                <img src="images/cafeteria.png">
+                <h3>Long Blogs</h3>
+                <p>Worlds Best Blogs On Our Website.</p>
+                </div>
+            </div>
+            
+            
+        </section>
+        
+        <!---- testimonials ---->
+        
+        <section class="testimonials">
+            <h1>Readers Says</h1>
+            <p>What Our Daily Readers Says</p>
+        
+            <div class="row">
+            <div class="testimonial-col">
+                <img src="images/user1.jpg">
+                <div>
+                <p>Your Blogs Are Just Amazing I Read Your Blogs Daily And They Are Just Amazing.</p>
+                    <h3>Mohit Patidar</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                </div>
+                 <div class="testimonial-col">
+                <img src="images/user2.jpg">
+                <div>
+                <p>This Is The One Of The Best Website For Reading Blogs, I Just Love To Read Your Blogs.</p>
+                    <h3>Gourav Patidar</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+
+                </div>
+                </div>
+            </div>
+            
+        </section>
+       <!----- Call TO Action ----->
+        
+        <section class="cta">
+            <h1>You Can Share Your Real Life Horror Blogs<br>With Us</h1>
+            <a href="" class="hero-btn">CONTACT US</a>
+        </section>
+        
+        
+          <!----- Footer ----->     
+        
+     <section class="footer">
+        <h4>ABOUT US</h4>
+         <p>Guys This Is A Website Here You Get All Amazing Blogs Of Facts,Horror Stories<br>And Also Paranormal Things</p>
+        <div class="icons">
+            <i class="fa fa-Facebook"></i> 
+            <i class="fa fa-Twitter"></i> 
+            <i class="fa fa-Instagram"></i>  
+            <i class="fa fa-linkedin"></i> 
+         </div>
+         <p>Made With <i class="fa fa-heart-o"></i> By GOOD </p>
+        </section>   
+        
+        
+        
+        
+        
+        
+        
+        <!------JavaScript for Toggle Menu------->
+        <script>
+        
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>  
+        
+        </body>
+    </html>
+    
+    
+    
+    
